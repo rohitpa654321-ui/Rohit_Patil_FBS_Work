@@ -1,4 +1,4 @@
-### prime number upto 100
+### prime number upto n
 # 1 is not a Prime and composite number
 num = int(input('Enter number : '))
 
