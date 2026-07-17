@@ -23,32 +23,3 @@ for i in range(0,limit+1):
     
     if(i == sum):
         print(i,end=' ')   
-
-
-
-
-
-
-
-
-
-
-# while (n <= limit):
-
-    
-#     for i in range(0,limit):
-#         temp = num
-#         tem = temp
-        
-#         while (tem > 0):
-#             tem = tem // 10
-#             count +=1
-
-#         while (temp>0):
-#             r = temp%10
-#             temp = temp // 10
-    
-#             sum = sum + (r**count)
-
-#         if (sum == num):
-#                 print(f'Armstrog number : {sum}')

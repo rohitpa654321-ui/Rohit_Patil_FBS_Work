@@ -1,4 +1,4 @@
-### Marriage eligibility
+### Marriage eligibility check
 # Take input
 gender = input('Enter gender (M/F) :')
 age = input('Enter age :')
@@ -8,13 +8,13 @@ if (gender == 'F'):
     if (age >= '18'):
         print('Girl is eligible for marriage.')
     else:
-        print('Pehele Bade ho jao...')
+        print('Make Eligible first...')
 
 if (gender == 'M'):
     if (age >= '21'):
         print('Boy is eligible for marriage.')
     else:
-        balance = int(input('bank balance kitna he (in Rs.) :'))
+        balance = int(input('Bank balance of Boy (in Rs.) :'))
         if (balance >= 10000000):
-            print('Marriage ke liye aur kya chahiye...')
-        else:print('Phele kama lo...')
+            print('What needed more than this for marriage...')
+        else:print('You have to be Eligible First and earn to take responsibilities...')

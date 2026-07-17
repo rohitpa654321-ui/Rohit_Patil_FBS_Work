@@ -9,7 +9,7 @@ Id = input('Enter user Id :')
 pass_Id = input('Enter password :')
 
 # operation on condition
-if (user_Id == Id):
+if (user_Id == Id and password == pass_Id):
     print('Login in successfully...')
     
 else :
